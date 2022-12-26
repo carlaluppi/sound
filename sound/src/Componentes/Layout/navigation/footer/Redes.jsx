@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Twitter from '../.././images/twitter.svg';
-import Facebook from '../.././images/facebook.svg';
+import Twitter from '../../../../images/twitter.svg';
+import Facebook from '../../../../images/facebook.svg';
 
 
 const Redes= () => {

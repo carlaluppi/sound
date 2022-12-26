@@ -9,7 +9,7 @@ const Texto = () => {
         <div className='conteinerTex'>
             <h1> Feel The Music </h1>
             <p>Stream over 20 thousand songs with one <br></br> click</p>
-            <bottom className= "botonBlue"> Join Now</bottom>
+            <button className= "botonBlue"> Join Now</button>
         </div>
     
     )

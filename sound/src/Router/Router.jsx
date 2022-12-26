@@ -3,7 +3,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 import Page1 from '../Componentes/Pages/Page1';
 import Page2 from '../Componentes/Pages/Page2';
-
+import Page3 from '../Componentes/Pages/Page3';
 
 
 const Router= () => { 
@@ -11,8 +11,8 @@ const Router= () => {
         <BrowserRouter>
         <Routes>
             <Route path="/" element= {<Page1></Page1>}/>
-            <Route path="/discover" element= {<h1>prueba1</h1>}/>
-            <Route path="/join" element= {<h1>prueba2</h1>}/>
+            <Route path="/discover" element= {<Page2/>}/>
+            <Route path="/join" element= {<Page3/>}/>
         </Routes>
         </BrowserRouter>
     )

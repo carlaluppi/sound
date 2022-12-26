@@ -1,5 +1,5 @@
 import React from 'react';
-import girl from '../../images/landing-page-girl.png';
+import girl from '../../../../images/landing-page-girl.png';
 
 
 const Girl= () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Img4 from '../../images/covers.jpg';
+import Img4 from '../../../../images/covers.jpg';
 
 
 const Imgx4 = () => {

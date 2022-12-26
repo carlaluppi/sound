@@ -12,7 +12,9 @@ body {
   .app{
     width: 100%;
     height: 100vh;
+    display: flex;
   }
+  
   img {
     width: 100%;
   }
@@ -54,8 +56,8 @@ body {
   }
   
   .conteinerMain {
-    width: 75%;
-    height: 500px;
+    width: 60%;
+    height: 95vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -114,8 +116,8 @@ body {
     bottom: -29px;
   }
   
-  .imgx4 {
-    width: 340px;
+  .img4 {
+    width: 300px;
   }
   
   .conteinerTexto {
@@ -160,7 +162,7 @@ body {
     width: 100%;
     height: 50px;
     display: flex;
-    justify-content: center;
+    align-items: end;
   
     }
   .conteiner1 {
@@ -190,7 +192,7 @@ body {
   
   li {
       display: inline-block;
-      margin-left: 10px;
+      margin-left: 60px;
       
   
       
@@ -249,4 +251,18 @@ body {
       height:80px;
   
     }
+  }
+
+
+  .main2 {
+    height: 100vh;
+    flex-direction: column;
+    
+  }
+
+  .formConteiner {
+    background-color: #202027;
+    border: 0;
+    display: flex;
+    outline: none;
   }
